@@ -90,7 +90,7 @@ body {
   /* margin: 0; */
 }
 
-h1 {
+#banner h1 {
    background-color: #dddddb;
    text-shadow: 2px 2px #768898;
    margin-bottom: 0;
@@ -100,8 +100,22 @@ h1 {
    border-bottom: .35em solid #d8bed6;
    text-align: center;
    color: white;
-   font-size: 6em;
+   font-size: 3.3em;
    font-family: "Didact", sans-serif;
+}
+
+@media (min-width: 36em) {
+
+  #banner h1 {
+    font-size: 4.5em;
+  }
+
+}
+
+@media (min-width: 48em) {
+
+#banner h1 {
+  font-size: 6em;
 }
 
 #banner .d-block {
@@ -110,6 +124,8 @@ h1 {
 
 #banner .d-block-bottom{
   margin-left: 1.75em;
+}
+
 }
 
 h2 {
