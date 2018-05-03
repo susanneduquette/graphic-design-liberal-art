@@ -184,7 +184,7 @@ blockquote p {
   margin-bottom: 0;
 }
 
-#paragraph-border{
+.paragraph-border{
   font-family: Catamaran, sans-serif;
   font-weight: 100;
   padding-left: 2em;
@@ -213,7 +213,7 @@ blockquote p {
   text-transform: lowercase;
 }
 
-#quote-1 {
+.quote-1 {
   /* background-color: #768898; */
   /* margin-top: 0;
   margin-left: 0;
@@ -227,7 +227,7 @@ blockquote p {
   color: white;
 }
 
-#quote-2 {
+.quote-2 {
   /* background-color: #768898; */
   position: relative;
   padding-top: .5em;
@@ -237,10 +237,14 @@ blockquote p {
   z-index: 0;
   font-family: "Didact", sans-serif;
   /* font-weight: 600; */
-  font-size: 1.25em;
+  font-size: 1.15em;
   color: white;
 }
 
+figcaption {
+  color: white;
+  font-family: "Didact", sans-serif;
+}
 
 #quotes {
   background-color: #d8bed6;
